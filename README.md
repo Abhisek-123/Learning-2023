@@ -219,7 +219,7 @@ application
 
 ./cp -s f1 f2
 f2:
-//-----------------------
+///-----------------------
 This Is The Tile Data
 Testing Case Copy
 Application
