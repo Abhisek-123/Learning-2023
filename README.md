@@ -211,36 +211,35 @@ if no options are passed then it should be a normal copy
 
 Example, say we have a file f1 with the following content
 f1:
------------------------
+//-----------------------
 This is the file data
 testing Case copy
 application
------------------------
+//-----------------------
 
 ./cp -s f1 f2
 f2:
------------------------
+//-----------------------
 This Is The Tile Data
 Testing Case Copy
 Application
------------------------
+//-----------------------
 
 ./cp -l f1 f3
 f3:
------------------------
+//-----------------------
 this is the tile data
 testing case copy
 application
------------------------
+//-----------------------
 
 ./cp -u f1 f4
 f4:
------------------------
+//-----------------------
 THIS IS THE FILE DATA
 TESTING CASE COPY
 APPLICATION
------------------------
-
+//-------------------
 ./cp f1 f5
 Should perform a normal copy
 
@@ -256,7 +255,7 @@ EntryNo,sensorNo,Temperature,Humidity,Light,
 1,S1,36.5,100,50,10:30:50
 2,S3,30,100,50,10:30:55
 3,S2,-6.6,100,10,10:31:00
-------------------------------------
+//------------------------------------
 
 a. Write a function to extract each line in the .csv file and store it in an array of structures. 
 
